@@ -1,10 +1,9 @@
 {
-  "name": "hoobank",
+  "name": "echoes",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npm run dev",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
