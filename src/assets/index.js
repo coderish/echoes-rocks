@@ -24,7 +24,15 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import band_image from "./band-rish.png";
+import band_image from "./band-image-camera-new2.jpg";
+import profile_drums from "./profile-drums_latest.jpg";
+import profile_leads from "./profile-leads.jpg";
+import profile_vocals from "./profile-vocals.jpg";
+import profile_bass from "./profile-bass.jpg";
+import profile_rhythms from "./profile-rhythms.jpg";
+import eo_smondo from "./event-org-smondo.png";
+import eo_park_square from "./event-org-parksquare.png";
+import eo_openjam from "./event-org-openjam.png";
 
 export {
   airbnb,
@@ -54,4 +62,12 @@ export {
   people02,
   people03,
   band_image,
+  profile_drums,
+  profile_vocals,
+  profile_leads,
+  profile_bass,
+  profile_rhythms,
+  eo_smondo,
+  eo_park_square,
+  eo_openjam,
 };

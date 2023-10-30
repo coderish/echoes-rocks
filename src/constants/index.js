@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, youtube, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, band_image  } from "../assets";
+import { eo_smondo, eo_park_square, eo_openjam, profile_drums, profile_vocals, profile_leads, profile_bass, profile_rhythms, people01, people02, people03, facebook, instagram, linkedin, youtube, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, band_image  } from "../assets";
 
 export const navLinks = [
   {
@@ -14,8 +14,8 @@ export const navLinks = [
     title: "Testimonials",
   },
   {
-    id: "footer",
-    title: "Social Presence",
+    id: "copyright",
+    title: "Contact Us",
   },
   
 ];
@@ -48,59 +48,72 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "The performance was mindblowing. The crowd thoroughly enjoyed, danced, sang and grooved along with the band. It was an amazing show to see.",
+      "The performance was mindblowing. The crowd thoroughly enjoyed, danced, sang and grooved along with the band. It was an amazing show to witness.",
     name: "Arindam",
     title: "Event Organizer - Smondo3",
-    img: people02,
+    img: eo_smondo,
   },
   {
     id: "feedback-2",
     content:
       "Echoes performed at Park Square Mall- Whitefield in Battle of the Bands competetion. There were total 45 bands out of which 4 bands made it to finals. Echoes was one among them and they were very professional in their setup and in bringing their sound and performance forward. They Rocked!!",
-    name: "",
+    name: "Park Square",
     title: "Event Organizer - Park Square Mall",
-    img: people02,
+    img: eo_park_square,
   },
   {
     id: "feedback-3",
     content:
-      "Echoes performed at Hard Rock Cafe - Whitefield as tribute to Lucky Ali, where they performed for 3 hours and rocked the place. The band was exceptionally good.",
-    name: "Marcel",
+      "Echoes performed at Hard Rock Cafe - Whitefield as tribute to Lucky Ali. It was a sold out show on bookmyshow.com where they performed for 3 plus hours and rocked the place. The band was exceptionally good.",
+    name: "Open Jam",
     title: "Event Organizer, HRC-Whitefield",
-    img: people03,
+    img: eo_openjam,
+  },
+];
+
+export const previousFolks = [
+  {
+    id: "prev-profile-1",
+    title: "Souvik",
+    value: "Vocals",
+  },
+  {
+    id: "prev-profile-2",
+    title: "Subhrochit",
+    value: "Lead Guitar",
   },
 ];
 
 export const stats = [
   {
-    id: "profile-1",
-    title: "Sayantan Ganguly",
-    img: people02,
-    value: "Drums",
-  },
-  {
     id: "profile-2",
-    title: "Kallol Ghosh",
-    img: people01,
-    value: "Vocals",
-  },
-  {
-    id: "profile-3",
-    title: "Rishabh Sharma",
-    img: band_image,
-    value: "Leads",
+    title: "Kallol",
+    img: profile_vocals,
+    value: "Vocals, Guitar",
   },
   {
     id: "profile-4",
-    title: "Anirban Chaudhary",
-    img: people03,
-    value: "Bass",
+    title: "Anirban",
+    img: profile_bass,
+    value: "Bass, Vocals",
+  },
+  {
+    id: "profile-3",
+    title: "Rishabh",
+    img: profile_leads,
+    value: "Lead Guitar",
   },
   {
     id: "profile-5",
-    title: "Ashish Jayant",
-    img: people03,
-    value: "Rhythms",
+    title: "Ashish",
+    img: profile_rhythms,
+    value: "Rhythm Guitar",
+  },
+  {
+    id: "profile-1",
+    title: "Sayantan",
+    img: profile_drums,
+    value: "Drums",
   },
 ];
 
@@ -156,14 +169,14 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Support",
     links: [
       {
-        name: "Our Partner",
+        name: "Our Supporters",
         link: "https://www.echoes.rocks/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Become our Supporter",
         link: "https://www.echoes.rocks/become-a-partner/",
       },
     ],

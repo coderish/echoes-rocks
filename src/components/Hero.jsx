@@ -6,13 +6,13 @@ const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+        {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">10%</span> Discount For{" "}
             <span className="text-white">3 bookings</span> a Month
           </p>
-        </div>
+        </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
@@ -25,15 +25,17 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        <span className="text-gradient">Generations</span>{" "}
+          <span className="text-red-500">Generations</span>{" "}
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of 5 expert musicians carrying 15+ years of experience in performing on stage 
-          covering all genres of music.<br/>The project <span className="text-gradient">ECHOES</span>{" "} was created keeping in mind 
-          the likeability of the crowd across all ages and the paradigm-shift of the genre towards Indie Rock.
-          {/* <br/><br/>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum voluptatum unde fugit excepturi 
-          eveniet nam officia a adipisci itaque autem asperiores neque quas sunt ad consequatur vel, esse dicta? */}
+          Formed over weekend jamming sessions in 2018, Echoes is a group of friends,
+          corporate consultants by profession and musicians by passion. Primarily a rock
+          band, our music incorporates influences of funk, blues, pop and fusion.
+          <br /><br />
+          We cover all genres of music as a band and altogether have  
+          <span className="text-red-400"> fifteen plus</span>{" "} years of 
+          stage experience among all of us.
+          <br /><br />
         </p>
       </div>
 
